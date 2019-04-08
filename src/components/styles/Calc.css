@@ -1,0 +1,50 @@
+.button {
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.button:active {
+  border-width: 2px 1px 1px 1px;
+  border-style: solid #999;
+}
+
+.button:hover {
+  background: rgba(220, 215, 215, 0.555);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.square {
+  width: 34px;
+}
+
+.rectangle {
+  width: 67px;
+}
+
+.app {
+  padding: 80px;
+}
+
+.row {
+  clear: both;
+}
+
+.display {
+  border: 1px solid #999;
+  float: left;
+  font-weight: bold;
+  line-height: 34px;
+  width: 131px;
+  text-align: right;
+}
